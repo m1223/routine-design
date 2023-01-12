@@ -1,0 +1,120 @@
+<html>	
+	<head>
+		<title>Basic HTML</title>
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		
+	</head>
+<body>
+	<h1 class="heading">Basic html</h1>
+	<div class="content">
+		<h3>Contents</h3>
+		<ol type="1" class="orderList">
+			<li> Computer</li>
+				<ol type="a" class="secondOl">
+					<li>Hardware</li>
+						<ol type="i" class="thirdOl">
+							<li> Monitor</li>
+							<li> Tower</li>
+							<li> Speaker</li>
+							<li> Keyboard</li>
+							<li> Mouse</li>
+						</ol>
+					<li>Software</li>
+						<ol type="i" class="thirdOl">
+							<li> Operating System</li>
+							<li> MS-Office</li>
+						</ol>
+				</ol>
+			<li> Quantum Computer</li>
+		</ol>
+	</div>
+	<hr>
+	<div class="routineTable">
+		<h3>Routine</h3>
+		<table class="tbR">
+			<thead>
+				<tr>
+					<th>Title 1</th>
+					<th>Title 2</th>
+					<th>Title 3</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td colspan="2">A1</td>
+					<td rowspan="2">X5</td>
+				</tr>
+				<tr>
+					<td>B2</td>
+					<td>C3</td>
+					
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<h2>Article Paragraph</h2>	
+	<p>
+		<span class="paraBold">Quantum computing</span>is a type of computation whose operations can harness the phenomena of quantum
+		mechanics, such as <i>superposition , interference,</i> and <i>entanglement</i>. Devices that perform quantum
+		computations are known as quantum computers.<sup>[1][2]</sup>
+	</p>
+	<div class="paraDiv">
+		<p>
+			Though current quantum computers may be too small to
+			outperform usual (classical) computers for practical applications,
+			larger realizations are believed to be capable of solving certain
+			computational problems, such as integer factorization <sub>(which
+			underlies RSA encryption),</sub> substantially faster than classical computers.
+			The study of quantum computing is a subfield of<a href="https://www.wikipedia.org/">quantum
+			information science</a>.
+		</p>
+	</div>
+	<h2>Application Web Form</h2>
+	<div class="formDiv">
+		<form>
+			<div class="form-group">
+				<label class="label">Full Name</label>
+				<input type="text" name="" class="form-control">
+			</div>
+			<div class="form-group">
+				<label class="label">Address</label>
+				<textarea rows="3" cols="120" class="form-control" placeholder="Describe yourself here..."></textarea>
+			</div>
+			<div class="form-group">
+				<label class="label2">Gender</label>
+				<input type="radio" name="gender" value="Male" id="gender" class="form-radio">Male
+				<input type="radio" name="gender" value="Female" id="gender" class="">Female
+
+			</div>
+			<div class="form-group">
+				<label class="label">Department</label>
+				<select class="form-control" name="">
+					<option>Select One</option>
+					<option>CSE</option>
+					<option>ENG</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label class="label2">Major</label>
+				<input type="radio" name="major" value="AI" id="gender" class="form-radio">AI
+				<input type="radio" name="major" value="Software" id="gender" class="">Software
+				<input type="radio" name="major" value="Networking" id="gender" class="">Networking
+
+			</div>
+			<div class="form-group">
+				<label class="label">Reg Date</label>
+				<input type="date" name="" class="form-control">
+			</div>
+			<div class="form-group">
+				<p class="textDiv">Information The field upload is just simulated in the preview. No File is really upload. <span style="float: right;" class="time">&times;	</span></p>
+			</div>
+			<div class="form-group">
+				<label class="label">Photo</label>
+				<input type="file" name="" class="form-control">
+			</div>
+			<button class="btn" type="submit" value="submit"><span class="btnText">Enter</span></button>
+		</form>
+	</div>
+
+</body>
+</html>

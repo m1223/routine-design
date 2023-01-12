@@ -1,0 +1,130 @@
+*{
+	padding: 0px;
+	margin: 12px;
+}
+.heading{
+	margin-top: 33px;
+	text-transform: uppercase;
+	color: black;
+	font-weight: 22px;
+	text-align: center;
+}
+.orderList{
+	margin-left:40px;
+}
+.secondOl{
+	margin-left:40px;
+}
+.thirdOl{
+	margin-left:40px;
+}
+.routineTable > h3{
+	text-align: center;
+}
+.tbR{
+  	border-collapse: collapse;
+ 	 width: 100%;
+
+}
+.tbR th,td{
+	padding: 18px;
+  	text-align: left;
+  	border: 1px solid black;
+  	text-align: center;
+}
+.paraBold{
+	font-weight: bold;
+	font-size: 18px;
+	padding: 0px;
+}
+.paraDiv{
+	height: 200px;
+	width: 600px;
+	background: #C7E1F9;
+	border: 1px solid black;
+}
+.paraDiv > p{
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: bold;
+	text-align: justify;
+}
+.form-group{
+	display: block;
+}
+
+.form-radio{
+	/*display: block;*/
+	margin-left: 177px;
+	/*float: left;*/
+}
+
+.formDiv{
+	height: auto;
+	width: 1200px;
+
+}
+.label{
+	width: 40%;
+	position: absolute;
+	font-weight: bold;
+
+}
+.label2{
+	font-weight: bold;
+
+}
+.form-control{
+	width: 76%;
+	margin-left: 255px;
+	padding: 8px;
+}
+.textDiv{
+	background: #D6EAF8;
+	width: 1121px;
+	display: block;
+	padding: 12px;
+	color: #5499C7
+
+}
+.time{
+	margin-top: -1px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #5499C7;
+}
+input[type=file]{
+	border: 1px solid black;
+	direction: none;
+	padding: 8px 0 0 0;
+	background: #F2F4F4;
+	border-radius: 44px;
+}
+.btn{
+	height: 37px;
+	width: 69px;
+	background: #27AE60;
+	color: #fff;
+	border: none;
+	
+}
+.btn:hover{
+	background: #EDBB99;
+	border-radius: 12px;
+	color:black;
+	
+}
+.btnText{
+	font-weight: bold;
+	display: block;
+	transition: 2s;
+}
+.btnText:hover{
+	transform: scale(1.5);
+}
+
+
+
+
+	
+	
